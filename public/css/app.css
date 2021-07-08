@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  background-image: url("/img/weather-back.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+ 
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 37px;
+}
+
+ul{
+    display: flex;
+    margin-left: 50%;
+    transform: translateX(-20%);
+    padding: 20px;
+    font-size: 20px;
+}
+a{
+  text-decoration: none;
+  font-family: cursive;
+  padding-right: 8px;
+  color: #605e5e;
+}
+a:hover{
+  color: blue;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 18px;
+  /* font-style: italic; */
+  font-family: monospace;
+}
+input{
+  width: 220px;
+  padding: 8px;
+  border-radius: 5px;
+  background: #c1c1c1;
+  font-size: 20px;
+}
+button{
+  margin: 20px;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: burlywood;
+}

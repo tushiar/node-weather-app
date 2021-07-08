@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+         <link rel="stylesheet" href="css/app.css">
+          <link rel="icon" href="img/weather-icon-removedbg.png" type="image/icon type">
+    </head>
+    <body>
+        {{>header}}
+        <form>
+            <input placeholder="Search City...">
+            <button>Search</button>
+        </form>
+        <h1 id="message-1">Current location is {{location }}</h1>
+        <p id="message-2">Forecast is {{ forecast }}</p>
+        
+        <p>{{content}}</p>
+        {{>footer}}
+    <script src="/js/app.js"></script>
+    </body>
+
+</html>
