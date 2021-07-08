@@ -8,7 +8,7 @@ body{
 }
 
 header {
- 
+  background: #747a8b2e;
   font-family: cursive;
   font-weight: bold;
   font-size: 37px;
@@ -34,11 +34,15 @@ a:hover{
 footer{
   position: fixed;
   bottom: 0;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  font-size: 18px;
+  font-size: 13px;
+  padding: 0 39%;
+  background-color: #818a914d;
   /* font-style: italic; */
   font-family: monospace;
+}
+p{
+  font-size: 20px;
+  font-family: cursive;
 }
 input{
   width: 220px;
